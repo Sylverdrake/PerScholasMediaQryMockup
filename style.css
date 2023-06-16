@@ -5,9 +5,10 @@
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    .linkTxt, .donate, .signup {
-        background-color: goldenrod;
+    .linkTxt, .linkTxt2, .donate, .signup {
+        background-color: #FEC14F;
         font-weight: bold;
+        cursor: pointer;
     }
     
     /* ---------------------- */
@@ -77,9 +78,11 @@
     .left {
         /* border: solid green; */
         background-image: url(https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1000x1000.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         /* display: flex; */
         height: 84vh;
-        width: 94vh;
+        width: 100vh;
     }
     
     
@@ -88,9 +91,11 @@
     .right {
         /* border: solid blue; */
         background-image: url(https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         /* display: flex; */
         height: 84vh;
-        width: 87vh;
+        width: 100vh;
     }
     
     .psicn {
@@ -112,6 +117,18 @@
         position: relative;
         top: 650px;
     }
+
+    .linkBox2 {
+        /* border: solid indigo; */
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3em;
+        padding: 2em;
+        align-items: center;
+        position: relative;
+        top: 620px;
+    }
     
     .headBox {
         /* border: solid violet; */
@@ -126,7 +143,7 @@
     
     .boxHook {
         /* border: solid pink; */
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
     
     .boxTxt {
@@ -135,7 +152,7 @@
         font-size: .9em;
     }
     
-    .linkTxt {
+    .linkTxt, .linkTxt2 {
         /* margin: 0; */
         display: flex;
         border: transparent;
@@ -179,8 +196,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .linkTxt, .donate, .signup {
-        background-color: goldenrod;
+        background-color: #FEC14F;
         font-weight: bold;
+        cursor: pointer;
     }
     
     /* ---------------------- */
@@ -254,9 +272,11 @@
     .left {
         /* border: solid green; */
         background-image: url(https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1000x1000.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         /* display: flex; */
         height: 84vh;
-        width: 94vh;
+        width: 120vh;
     }
     
     
@@ -265,10 +285,12 @@
     .right {
         /* border: solid blue; */
         background-image: url(https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         /* display: flex; */
         margin-top: 15em;
         height: 84vh;
-        width: 87vh;
+        width: 120vh;
     }
     
     .psicn {
@@ -279,7 +301,7 @@
         /*temp size */
     }
     
-    .linkBox {
+    .linkBox, .linkBox2 {
         /* border: solid indigo; */
         background-color: white;
         display: flex;
@@ -304,7 +326,7 @@
     
     .boxHook {
         /* border: solid pink; */
-        font-size: 1.5em;
+        font-size: 2.3em;
     }
     
     .boxTxt {
@@ -313,7 +335,7 @@
         font-size: .9em;
     }
     
-    .linkTxt {
+    .linkTxt, .linkTxt2 {
         /* margin: 0; */
         display: flex;
         border: transparent;
@@ -357,8 +379,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .linkTxt, .donate, .signup {
-        background-color: goldenrod;
+        background-color: #FEC14F;
         font-weight: bold;
+        cursor: pointer;
     }
     
     /* ---------------------- */
@@ -434,6 +457,8 @@
         /* border: solid green; */
         background-image: url(https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1000x1000.jpg);
         /* display: flex; */
+        background-size: cover;
+        background-repeat: no-repeat;
         height: 84vh;
         width: 94vh;
     }
@@ -444,10 +469,12 @@
     .right {
         /* border: solid blue; */
         background-image: url(https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         /* display: flex; */
         margin-top: 15em;
         height: 84vh;
-        width: 87vh;
+        width: 85vh;
     }
     
     .psicn {
@@ -458,7 +485,7 @@
         /*temp size */
     }
     
-    .linkBox {
+    .linkBox, .linkBox2 {
         /* border: solid indigo; */
         background-color: white;
         display: flex;
@@ -483,7 +510,7 @@
     
     .boxHook {
         /* border: solid pink; */
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
     
     .boxTxt {
@@ -492,7 +519,7 @@
         font-size: .9em;
     }
     
-    .linkTxt {
+    .linkTxt, .linkTxt2 {
         /* margin: 0; */
         display: flex;
         border: transparent;
@@ -529,3 +556,7 @@
 /* Mobile End*/
 /* -------------------------------------------------------- */
 
+
+.changeform {
+    background-color: rgb(245, 136, 50);
+}
