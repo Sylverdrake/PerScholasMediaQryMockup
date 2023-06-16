@@ -1,0 +1,531 @@
+/* Desktop Start  */
+@media (max-width: 3000px) {
+    body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .linkTxt, .donate, .signup {
+        background-color: goldenrod;
+        font-weight: bold;
+    }
+    
+    /* ---------------------- */
+    /* Navbar Fun Time */
+    .navBar {
+        /* border: solid; */
+        background-color: white;
+        height: 130px;
+        width: 100%;
+        display: flex;
+        font-weight: bold;
+    
+    }
+    
+    .logo {
+        /* border: solid red; */
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .ps {
+        /* border: solid silver; */
+        justify-content: center;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .hamburgMenu {
+        /* border: solid green; */
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    /* This only shows up when smol */
+    .menu {
+        /* border: solid; */
+            display: none;
+    }
+    /* --- */
+    
+    .tab {
+        /* border: solid orange; */
+        padding: 4vh;
+        font-size: .7em;
+        cursor: pointer;
+    }
+    
+    .srchicon {
+        /* border: solid gold; */
+        /*temp size*/
+        height: 15px;
+        width: 15px;
+        /*temp size */
+    }
+    
+    /* ---------------------- */
+    
+    .lrContainer {
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Left Banner / Make it stack above right banner */
+    .left {
+        /* border: solid green; */
+        background-image: url(https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1000x1000.jpg);
+        /* display: flex; */
+        height: 84vh;
+        width: 94vh;
+    }
+    
+    
+    /* ---------------------- */
+    /* Right Banner / Make it stack under left banner */
+    .right {
+        /* border: solid blue; */
+        background-image: url(https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg);
+        /* display: flex; */
+        height: 84vh;
+        width: 87vh;
+    }
+    
+    .psicn {
+        /* border: solid lightcoral; */
+            /*temp size*/
+        height: 30px;
+        width: 30px;
+        /*temp size */
+    }
+    
+    .linkBox {
+        /* border: solid indigo; */
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3em;
+        padding: 2em;
+        align-items: center;
+        position: relative;
+        top: 650px;
+    }
+    
+    .headBox {
+        /* border: solid violet; */
+    
+    }
+    
+    .boxTitle {
+        /* border: solid lightblue; */
+        font-size: .7em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .boxHook {
+        /* border: solid pink; */
+        font-size: 1.5em;
+    }
+    
+    .boxTxt {
+        /* border: solid salmon; */
+        margin:0;
+        font-size: .9em;
+    }
+    
+    .linkTxt {
+        /* margin: 0; */
+        display: flex;
+        border: transparent;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 44px;
+        margin: 1em;
+    }
+    
+    /* ---------------------- */
+    /* Video Stuff */
+    .vidBox {
+        /* border: solid navy; */
+        display: flex;
+        margin-top: 14em;
+        margin-bottom: 5em;
+        align-items: center;
+        flex-flow: column;
+    
+    }
+    
+    .vidTitle {
+        /* border: solid saddlebrown; */
+        width: 30%;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    
+    iframe {
+        /* border: solid green; */
+    }
+}
+/* Desktop End*/
+/* -------------------------------------------------------- */
+/* Tablet Start */
+@media (max-width: 1300px) {
+    body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .linkTxt, .donate, .signup {
+        background-color: goldenrod;
+        font-weight: bold;
+    }
+    
+    /* ---------------------- */
+    /* Navbar Fun Time */
+    .navBar {
+        /* border: solid; */
+        background-color: white;
+        height: 130px;
+        width: 100%;
+        display: flex;
+        font-weight: bold;
+    
+    }
+    
+    .logo {
+        /* border: solid red; */
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .ps {
+        /* border: solid silver; */
+        justify-content: center;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .hamburgMenu {
+        /* border: solid green; */
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    /* This only shows up when smol */
+    .menu {
+        /* border: solid; */
+        height: 30px;
+        width: 30px;
+        display: flex;
+        margin-right: 3em;
+        cursor: pointer;
+    }
+    /* --- */
+    
+    .tab {
+        /* border: solid orange; */
+        display: none;
+        padding: 4vh;
+        font-size: .7em;
+    }
+    
+    .srchicon {
+        /* border: solid gold; */
+        /*temp size*/
+        height: 15px;
+        width: 15px;
+        /*temp size */
+    }
+    
+    /* ---------------------- */
+    
+    .lrContainer {
+        /* border: solid; */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Left Banner / Make it stack above right banner */
+    .left {
+        /* border: solid green; */
+        background-image: url(https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1000x1000.jpg);
+        /* display: flex; */
+        height: 84vh;
+        width: 94vh;
+    }
+    
+    
+    /* ---------------------- */
+    /* Right Banner / Make it stack under left banner */
+    .right {
+        /* border: solid blue; */
+        background-image: url(https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg);
+        /* display: flex; */
+        margin-top: 15em;
+        height: 84vh;
+        width: 87vh;
+    }
+    
+    .psicn {
+        /* border: solid lightcoral; */
+            /*temp size*/
+        height: 30px;
+        width: 30px;
+        /*temp size */
+    }
+    
+    .linkBox {
+        /* border: solid indigo; */
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3em;
+        padding: 2em;
+        align-items: center;
+        position: relative;
+        top: 650px;
+    }
+    
+    .headBox {
+        /* border: solid violet; */
+    
+    }
+    
+    .boxTitle {
+        /* border: solid lightblue; */
+        font-size: .7em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .boxHook {
+        /* border: solid pink; */
+        font-size: 1.5em;
+    }
+    
+    .boxTxt {
+        /* border: solid salmon; */
+        margin:0;
+        font-size: .9em;
+    }
+    
+    .linkTxt {
+        /* margin: 0; */
+        display: flex;
+        border: transparent;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 44px;
+        margin: 1em;
+    }
+    
+    /* ---------------------- */
+    /* Video Stuff */
+    .vidBox {
+        /* border: solid navy; */
+        display: flex;
+        margin-top: 22em;
+        margin-bottom: 5em;
+        align-items: center;
+        flex-flow: column;
+    
+    }
+    
+    .vidTitle {
+        /* border: solid saddlebrown; */
+        width: 30%;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    
+    iframe {
+        /* border: solid green; */
+    }
+}
+/* Tablet End*/
+/* -------------------------------------------------------- */
+/* Mobile Start*/
+@media (max-width: 800px) {
+    body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .linkTxt, .donate, .signup {
+        background-color: goldenrod;
+        font-weight: bold;
+    }
+    
+    /* ---------------------- */
+    /* Navbar Fun Time */
+    .navBar {
+        /* border: solid; */
+        background-color: white;
+        height: 130px;
+        width: 100%;
+        display: flex;
+        font-weight: bold;
+    
+    }
+    
+    .logo {
+        /* border: solid red; */
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .ps {
+        /* border: solid silver; */
+        justify-content: center;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .hamburgMenu {
+        /* border: solid green; */
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    /* This only shows up when smol */
+    .menu {
+        /* border: solid; */
+        height: 30px;
+        width: 30px;
+        display: flex;
+        margin-right: 3em;
+        cursor: pointer;
+    }
+    /* --- */
+    
+    .tab {
+        /* border: solid orange; */
+        display: none;
+        padding: 4vh;
+        font-size: .7em;
+    }
+    
+    .srchicon {
+        /* border: solid gold; */
+        /*temp size*/
+        height: 15px;
+        width: 15px;
+        /*temp size */
+    }
+    
+    /* ---------------------- */
+    
+    .lrContainer {
+        /* border: solid; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: column; */
+    }
+    
+    /* Left Banner / Make it stack above right banner */
+    .left {
+        /* border: solid green; */
+        background-image: url(https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1000x1000.jpg);
+        /* display: flex; */
+        height: 84vh;
+        width: 94vh;
+    }
+    
+    
+    /* ---------------------- */
+    /* Right Banner / Make it stack under left banner */
+    .right {
+        /* border: solid blue; */
+        background-image: url(https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg);
+        /* display: flex; */
+        margin-top: 15em;
+        height: 84vh;
+        width: 87vh;
+    }
+    
+    .psicn {
+        /* border: solid lightcoral; */
+            /*temp size*/
+        height: 30px;
+        width: 30px;
+        /*temp size */
+    }
+    
+    .linkBox {
+        /* border: solid indigo; */
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3em;
+        padding: 2em;
+        align-items: center;
+        position: relative;
+        top: 650px;
+    }
+    
+    .headBox {
+        /* border: solid violet; */
+    
+    }
+    
+    .boxTitle {
+        /* border: solid lightblue; */
+        font-size: .7em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .boxHook {
+        /* border: solid pink; */
+        font-size: 1.5em;
+    }
+    
+    .boxTxt {
+        /* border: solid salmon; */
+        margin:0;
+        font-size: .9em;
+    }
+    
+    .linkTxt {
+        /* margin: 0; */
+        display: flex;
+        border: transparent;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 44px;
+        margin: 1em;
+    }
+    
+    /* ---------------------- */
+    /* Video Stuff */
+    .vidBox {
+        /* border: solid navy; */
+        display: flex;
+        margin-top: 22em;
+        margin-bottom: 5em;
+        align-items: center;
+        flex-flow: column;
+    
+    }
+    
+    .vidTitle {
+        /* border: solid saddlebrown; */
+        width: 30%;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    
+    iframe {
+        /* border: solid green; */
+    }
+}
+/* Mobile End*/
+/* -------------------------------------------------------- */
+
